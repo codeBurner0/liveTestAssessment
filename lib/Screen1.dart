@@ -37,10 +37,10 @@ class Getstarted extends StatelessWidget {
                       return Login();
                     }));
                   },
-                  child: Text("Get Started",
+                  child: Text("   Get Started   ",
                       style: TextStyle(
                         fontWeight: FontWeight.bold,
-                        fontSize: 30,
+                        fontSize: 25,
                       )))
             ],
           ),

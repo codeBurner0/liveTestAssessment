@@ -64,7 +64,6 @@ class _screen2State extends State<Login> {
                     border: UnderlineInputBorder(),
                   ),
                   keyboardType: TextInputType.emailAddress,
-                  obscureText: _secureText,
                 ),
                 SizedBox(
                   height: 50,
@@ -77,7 +76,7 @@ class _screen2State extends State<Login> {
                       child: ElevatedButton(
                         style: ElevatedButton.styleFrom(
                           textStyle: const TextStyle(fontSize: 20),
-                          primary: const Color.fromARGB(255, 102, 40, 172),
+                          primary: Color.fromARGB(255, 7, 116, 251),
                           fixedSize: const Size(200, 20),
                         ),
                         onPressed: () {
