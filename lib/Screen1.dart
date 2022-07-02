@@ -12,6 +12,9 @@ class Getstarted extends StatelessWidget {
         child: Container(
           child: Column(
             children: [
+              SizedBox(
+                height: 30,
+              ),
               Text(
                 "Training",
                 style: TextStyle(
@@ -20,7 +23,7 @@ class Getstarted extends StatelessWidget {
                     color: Colors.purple),
               ),
               SizedBox(
-                height: 30,
+                height: 40,
               ),
               Image(
                 image: NetworkImage(
@@ -28,7 +31,7 @@ class Getstarted extends StatelessWidget {
                 height: 200,
               ),
               SizedBox(
-                height: 50,
+                height: 70,
               ),
               ElevatedButton(
                   onPressed: () {

@@ -5,6 +5,7 @@ import 'package:project1/Screen3.dart';
 
 void main() {
   runApp(MaterialApp(
+    debugShowCheckedModeBanner: false,
     home: Getstarted(),
   ));
 }

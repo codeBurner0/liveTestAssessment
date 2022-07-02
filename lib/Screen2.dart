@@ -20,6 +20,7 @@ class _screen2State extends State<Login> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(title: Text("Screen-2")),
       body: SafeArea(
           child: Padding(
               padding: const EdgeInsets.all(20.0),
