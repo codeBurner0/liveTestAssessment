@@ -5,6 +5,6 @@ import 'package:project1/Screen3.dart';
 
 void main() {
   runApp(MaterialApp(
-    home: Screen3(studentname: "Vidisha"),
+    home: Getstarted(),
   ));
 }
